@@ -1,0 +1,43 @@
+/* GLOBAL */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif !important;
+    overflow: hidden;
+}
+
+/* NAVBAR */
+
+nav {
+    border-bottom: 1px solid black;
+}
+
+/* MAIN */
+
+.container {
+    border-radius: 30px;
+}
+
+.container button {
+    height: 30px;
+    width: 70px;
+    background: none;
+    border-color: wheat;
+    color: wheat;
+}
+
+.container button:focus,
+#btn:focus {
+    outline: none;
+}
+
+#btn {
+    font-size: 1.2rem;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 30px;
+}
